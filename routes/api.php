@@ -25,3 +25,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 // Route::delete('books', 'BookController@destroy'); // delete data
 
 Route::resource('books', 'BookController');
+
+Route::resource('authors', 'AuthorController');
